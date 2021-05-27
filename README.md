@@ -8,7 +8,7 @@ Instead of having to learn the arcane details of each of the hundreds of AWS ser
 
 Run `control setup` to prepare your AWS account to host your apps & services. Internally, Control will configure a VPC, make private and public subnets in every availability zone, and set up the internet gateways, route tables and ACLs.
 
-Run `control create app` to start a collection of Services and Tasks that make up a single App. You can think of each App as a combination of a container and a [Procfile](https://devcenter.heroku.com/articles/procfile) — a codebase, Sevices that work over HTTP, and Tasks that either run periodically on cron or 24/7. Internally, Control will set up an ECR repository, and configure your one or more of ECS, Fargate, App Runner, Cloud Map, HTTP Gateway, Lambda and ALB based on sensible defaults that you can override. All configurations are enabled for autoscaling, logging and metrics, with locked-down security groups. 
+Run `control create app` to start a collection of Services and Tasks that make up a single App. Wach App as a combination of a container and a [Procfile](https://devcenter.heroku.com/articles/procfile) — a codebase, Sevices that work over HTTP, and Tasks that either run periodically on cron or 24/7. Internally, Control will set up an ECR repository, and configure your one or more of ECS, Fargate, App Runner, Cloud Map, HTTP Gateway, Lambda and ALB based on sensible defaults that you can override. All configurations are enabled for autoscaling, logging and metrics, with locked-down security groups. 
 
 Run `control create database` to set up a database of your choice on RDS, with sensible defaults for backups, IOPS and locked-down security groups. 
 
