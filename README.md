@@ -1,6 +1,6 @@
 # CONTORL.AWS
 
-### A command is worth a thousand API calls. 
+## A command is worth a thousand API calls. 
 
 Control your AWS cloud with a simple API that does all the undifferentiated heavy lifting for you. 
 
